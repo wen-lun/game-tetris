@@ -1,0 +1,21 @@
+{
+  "name": "game-tetris",
+  "version": "1.0.0",
+  "description": "h5 canvas实现俄罗斯方块游戏",
+  "scripts": {
+    "build": "tsc",
+    "es": "tsc --lib dom,es2015 --strict false --target es2017  src/tetris.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "h5",
+    "canvas",
+    "game",
+    "tetris-game",
+    "game-tetris",
+    "游戏",
+    "俄罗斯方块"
+  ],
+  "author": "wenlun",
+  "license": "ISC"
+}
